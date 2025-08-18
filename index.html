@@ -7,11 +7,29 @@
     <title>Recipe Generator</title>
 </head>
 <body>
-    <h1>Welcome to the Recipe Generator</h1>
-    <p>Generate delicious recipes with the power of AI!</p>
-    <footer>This AI project was coded by <a href="https://github.com/EmFirefly/" target="_blank">Megan van Zyl</a> and is open-sourced on 
+    <header>
+        <h1>Welcome to the Recipe Generator</h1>
+        <p>Generate delicious recipes with the power of AI!</p>
+    </header>
+    <main>
+        <section id="recipe-form">
+            <h2>Generate a Recipe</h2>
+            <form id="recipeInputForm">
+                <label for="ingredients">Enter ingredients (comma-separated):</label>
+                <input type="text" id="ingredients" name="ingredients" required>
+                <button type="submit">Generate Recipe</button>
+            </form>
+        </section>
+        <section id="recipe-output">
+            <h2>Generated Recipe</h2>
+            <div id="recipeDisplay"></div>
+        </section>
+
+    <footer>
+        This AI project was coded by <a href="https://github.com/EmFirefly/" target="_blank">Megan van Zyl</a> and is open-sourced on 
     <a href="https://github.com/EmFirefly/ai-recipe-generator" target="_blank">GitHub</a>
-        and is hosted on <a href="https://majestic-puffpuff-b584cb.netlify.app/" target="_blank">Netlify</a></footer>
+        and is hosted on <a href="https://majestic-puffpuff-b584cb.netlify.app/" target="_blank">Netlify</a>
+    </footer>
     <script src="src/index.js"></script>
     
 </body>
