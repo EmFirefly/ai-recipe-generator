@@ -54,8 +54,10 @@ h2 {
 .recipeCard figure {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 120%;
     height: 14rem;
+    position: relative;
+    right: 2rem;
 }
 
 .recipeCard figure img {
@@ -73,7 +75,7 @@ h2 {
     font-size: 20px;
     text-transform: uppercase;
     position: relative;
-    left: 10px;
+    right: 6rem;
 }
 
 .dish-stats {
@@ -82,17 +84,19 @@ h2 {
     margin-top: 5px;
     position: relative;
     bottom: 3.2rem;
-    left: 14rem;
+    left: 6.5rem;
 }
 
 .dish-title {
     font-size: 21px;
     font-weight: bold;
     margin: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #070705;
     position: relative;
     bottom: 2rem;
 }
 
+.dish-link {
+    text-align: center;
+    text-decoration: none;
+    color: #070705;
+}
