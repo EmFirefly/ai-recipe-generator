@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css">
     <title>Recipe Generator</title>
 </head>
@@ -20,8 +21,8 @@
                 <button type="submit" id="generateButton">Generate Recipe</button>
             </form>
         </section>
-        <section id="recipe-output">
-            <h2>Generated Recipe</h2>
+        <br/>
+        <section id="recipe-output" class="hidden">
             <div class="recipeCard">
                 <a href="https://www.allrecipes.com/recipe/15093/grandmas-lemon-meringue-pie/" class="dish-link" target="_blank">
                     <figure>
@@ -29,18 +30,18 @@
                         class="recipeImage">
                     </figure>
                     <div class="card-meta">
-                    <p class="dish-type">Dessert</p>
+                    <p class="dish-type">• Dessert</p>
                     <p class="dish-stats">
-                        40 min
+                       • 40 min
                     </p>
-                    <p class="dish-title">Grandma's Lemon Meringue Pie</p>
+                    <p class="dish-name">Grandma's Lemon Meringue Pie</p>
                 </a>
             </div>
             </div>
         </section>
 
     <footer>
-        This AI project was coded by <a href="https://github.com/EmFirefly/" target="_blank">Megan van Zyl</a> and is open-sourced on 
+        This project was coded by <a href="https://github.com/EmFirefly/" target="_blank">Megan van Zyl</a> and is open-sourced on 
     <a href="https://github.com/EmFirefly/ai-recipe-generator" target="_blank">GitHub</a>
         and is hosted on <a href="https://majestic-puffpuff-b584cb.netlify.app/" target="_blank">Netlify</a>
     </footer>

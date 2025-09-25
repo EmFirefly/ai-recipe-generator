@@ -100,3 +100,11 @@ h2 {
     text-decoration: none;
     color: #070705;
 }
+
+#recipe-form {
+    text-align: center;
+    margin: 20px;
+}
+.hidden {
+    display: none;
+}
