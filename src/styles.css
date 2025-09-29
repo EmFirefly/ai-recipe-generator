@@ -54,10 +54,10 @@ h2 {
 .recipeCard figure {
     margin: 0;
     padding: 0;
-    width: 120%;
+    width: 110%;
     height: 14rem;
     position: relative;
-    right: 2rem;
+    right: 1rem;
 }
 
 .recipeCard figure img {
