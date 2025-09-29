@@ -87,8 +87,8 @@ h2 {
     left: 6.5rem;
 }
 
-.dish-title {
-    font-size: 21px;
+.dish-name {
+    font-size: 22px;
     font-weight: bold;
     margin: 10px 10px;
     position: relative;
@@ -97,6 +97,7 @@ h2 {
 
 .dish-link {
     text-align: center;
+    font-size: 22px;
     text-decoration: none;
     color: #070705;
 }

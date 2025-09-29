@@ -33,7 +33,7 @@ function updateRecipeCard(response) {
     axios.get(recipeInformation).then(console.log("Fetching detailed recipe information...") || function(infoResponse) {
         console.log("Detailed recipe information:", infoResponse.data);
         dishTime.innerHTML = `⏱ ${infoResponse.data.readyInMinutes} min`;
-        dishType.innerHTML = ` ${infoResponse.data.dishTypes}`;
+        dishType.innerHTML = `• ${infoResponse.data.dishTypes}`;
         dishLink.href = infoResponse.data.sourceUrl;
     });
 
